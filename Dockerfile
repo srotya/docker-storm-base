@@ -1,4 +1,5 @@
 FROM java:8-jre
+MAINTAINER ambuds
 RUN apt-get -y update
 RUN apt-get -y install nano wget python gettext
 RUN wget http://apache.cs.utah.edu/storm/apache-storm-0.10.1/apache-storm-0.10.1.tar.gz -O /opt/apache-storm-0.10.1.tar.gz
