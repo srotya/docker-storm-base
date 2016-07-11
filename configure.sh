@@ -1,4 +1,5 @@
 #!/bin/bash
+set -eu
 
 if [ -z $ZOOKEEPER_HOST ]; then
   echo "Missing ZOOKEEPER_HOST environment variable"
